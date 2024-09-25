@@ -424,6 +424,23 @@ body {
     color: var(--bright-blue);    
 }
 
+.attribution {
+    background-color: var(--very-dark-blue);
+    text-align: center;
+    color: var(--white);
+    padding: 10px;
+    font-size: 0.8rem;
+}
+
+.attribution a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+.attribution a:hover {
+    color: var(--bright-blue);
+}
+
 @media (min-width: 550px) {
 
     .container {
